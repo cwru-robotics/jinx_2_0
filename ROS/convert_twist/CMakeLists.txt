@@ -6,6 +6,7 @@ project(convert_twist)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   message_generation
+  roboteq_msgs
   roscpp
   std_msgs
 
